@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate area of a triangle</title>
+
+    <link rel="stylesheet" href="../style.css" />
+    <script
+      src="https://kit.fontawesome.com/fe28fdb4bc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>fun with triangles</h1>
+      <nav>
+        <a href="../pages/angles-triangles.html" class="nav-links"
+          >Is Triangle?</a
+        >
+        <a href="../index.html" class="nav-links">Quiz</a>
+        <a href="../pages/calculate-hypo.html" class="nav-links">Hypotenuse</a>
+        <a href="./calculate-area.html" class="nav-links">Area of Triangle</a>
+      </nav>
+    </header>
+    <main class="calculate-area-main">
+      <h1>Calculate Area of a triangle</h1>
+      <form id="calculate-area">
+        <label class="input-label" for="first-side">
+          <p>Enter first side of a triangle</p>
+          <input class="input-text" required type="number" id="first-side" />
+        </label>
+        <label class="input-label" for="second-side">
+          <p>Enter second side of a triangle</p>
+          <input class="input-text" required type="number" id="second-side" />
+        </label>
+        <label class="input-label" for="third-side">
+          <p>Enter third side of a triangle</p>
+          <input class="input-text" required type="number" id="third-side" />
+        </label>
+        <button class="btn-check" type="submit">Calculate</button>
+      </form>
+      <p class="output calculate-area-output" id="output"></p>
+    </main>
+    <footer class="footer">
+      <ul class="list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/ANKIT9761"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/"><i class="fab fa-twitter fa-2x"></i></a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/ankit-kanyal-43460b169/"
+            ><i class="fab fa-linkedin-in fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="../scripts/calculate-area.js"></script>
+  </body>
+</html>
